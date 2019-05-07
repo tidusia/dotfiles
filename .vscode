@@ -1,0 +1,71 @@
+{
+  "editor.fontSize": 13,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "none",
+  "workbench.colorTheme": "Oceanic Next",
+  "emmet.syntaxProfiles": {
+    "javascript": "html"
+  },
+  "editor.minimap.enabled": false,
+  "ActiveFileInStatusBar.fullpath": false,
+  "explorer.openEditors.visible": 0,
+  "files.hotExit": "off",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "git.confirmSync": false,
+  "javascript.suggest.autoImports": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.quickSuggestionsDelay": 30,
+  "editor.letterSpacing": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorWidth": 3,
+  "editor.wordWrap": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.colorDecorators": false,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "workbench.editor.tabCloseButton": "off",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // show snippets before any other auto completion
+  "editor.snippetSuggestions": "top",
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "eslint.autoFixOnSave": true,
+  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  "prettier.disableLanguages": ["js"],
+  "eslint.alwaysShowStatus": true,
+  "editor.autoIndent": true,
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": true,
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.parameterHints.enabled": false
+}
