@@ -67,5 +67,11 @@
   "workbench.editor.enablePreview": true,
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": true,
-  "editor.parameterHints.enabled": false
+  "editor.parameterHints.enabled": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
