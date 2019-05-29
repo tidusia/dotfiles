@@ -1,4 +1,4 @@
-Here are a list of all the extensions I use every day.
+Here is a list of all the extensions I use every day.
 
 - [Active File In Status Bar](https://marketplace.visualstudio.com/items?itemName=RoscoP.ActiveFileInStatusBar)
 - [Atom Keymap for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
@@ -19,7 +19,7 @@ Here are a list of all the extensions I use every day.
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 
-Here are a list of the extensions I'd like to take a look use.
+Here is a list of the extensions I'd like to take a look.
 
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
