@@ -69,9 +69,30 @@
   "editor.useTabStops": true,
   "editor.parameterHints.enabled": false,
   "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ]
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "versionlens.showVersionLensesAtStartup": false,
+  "jest.pathToJest": "yarn test",
+  "jest.showCoverageOnLoad": true,
+  "jest.enableInlineErrorMessages": false,
+  "jest.enableSnapshotUpdateMessages": false,
+  "jest.enableSnapshotPreviews": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
