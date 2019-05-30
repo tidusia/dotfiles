@@ -48,7 +48,7 @@
     "javascript": "javascriptreact"
   },
   // show snippets before any other auto completion
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "bottom",
   // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
