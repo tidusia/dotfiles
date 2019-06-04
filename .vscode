@@ -33,7 +33,6 @@
   "editor.wordWrap": "off",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
-  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "left",
   "files.exclude": {
     "**/.git": true,
@@ -43,18 +42,12 @@
     "**/.DS_Store": true,
     "**/.next": true
   },
-  "workbench.editor.tabCloseButton": "off",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // show snippets before any other auto completion
-  "editor.snippetSuggestions": "bottom",
-  // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "eslint.autoFixOnSave": true,
-  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": ["js"],
   "eslint.alwaysShowStatus": true,
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
