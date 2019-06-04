@@ -4,6 +4,7 @@ Here is a list of all the extensions I use every day.
 - [Atom Keymap for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 - [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+- [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
 - [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
