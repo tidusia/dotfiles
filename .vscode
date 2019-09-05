@@ -87,5 +87,9 @@
   "jest.enableSnapshotPreviews": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "typescript.tsserver.log": "verbose",
+  "javascript.validate.enable": false,
+  "prettier.singleQuote": true
 }
