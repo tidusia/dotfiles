@@ -3,7 +3,9 @@
   "atomKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.tabSize": 2,
   "editor.renderWhitespace": "none",
   "workbench.colorTheme": "Oceanic Next",
@@ -91,5 +93,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "typescript.tsserver.log": "verbose",
   "javascript.validate.enable": false,
-  "prettier.singleQuote": true
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
