@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "atomKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
@@ -7,7 +7,6 @@
     80
   ],
   "editor.tabSize": 2,
-  "editor.renderWhitespace": "none",
   "workbench.colorTheme": "Oceanic Next",
   "emmet.syntaxProfiles": {
     "javascript": "html"
@@ -18,7 +17,6 @@
   "files.hotExit": "off",
   "window.zoomLevel": 0,
   "editor.formatOnSave": true,
-  "prettier.eslintIntegration": true,
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "git.confirmSync": false,
   "javascript.suggest.autoImports": false,
@@ -49,38 +47,39 @@
   },
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "eslint.alwaysShowStatus": true,
-  "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "editor.showFoldingControls": "always",
   "editor.find.seedSearchStringFromSelection": true,
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": "always",
   "window.openFilesInNewWindow": "off",
   "workbench.editor.enablePreview": true,
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": true,
   "editor.parameterHints.enabled": false,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
+  // "eslint.validate": [
+  //   {
+  //     "language": "javascript",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "javascriptreact",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "typescript",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "typescriptreact",
+  //     "autoFix": true
+  //   }
+  // ],
   "versionlens.showVersionLensesAtStartup": false,
   "jest.pathToJest": "yarn test",
   "jest.showCoverageOnLoad": true,
@@ -95,5 +94,5 @@
   "javascript.validate.enable": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
 }
