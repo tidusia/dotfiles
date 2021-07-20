@@ -1,3 +1,5 @@
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -15,26 +17,16 @@ enter_directory() {
 
 export PROMPT_COMMAND=enter_directory
 
-PHP_VERSION=$(ls /Applications/MAMP/bin/php/ | sort -n | tail -1)
-export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH
-
-export ANDROID_HOME=/Users/thibaud/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Alias
 alias ll='ls -la'
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
-alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-alias pg_stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias gbpurge='git branch --merged | grep -Ev "(\*|master|develop|staging|main)" | xargs -n 1 git branch -d'
+alias webstorm='open -na "Webstorm.app" --args "$@"'
 
-# Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
-
-# Check ruby version in current folder
-eval "$(rbenv init -)"
+# If python 3 is needed
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init --path)"
+#   eval "$(pyenv init -)"
+# fi
