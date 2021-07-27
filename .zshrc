@@ -28,14 +28,6 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 # Alias
-alias ll='ls -la'
-alias gbpurge='git branch --merged | grep -Ev "(\*|master|develop|staging|main)" | xargs -n 1 git branch -d'
 alias webstorm='open -na "Webstorm.app" --args "$@"'
-
-# If python 3 is needed
-# export PYENV_ROOT="$HOME/.pyenv"
-# export PATH="$PYENV_ROOT/bin:$PATH"
-# if command -v pyenv 1>/dev/null 2>&1; then
-#   eval "$(pyenv init --path)"
-#   eval "$(pyenv init -)"
-# fi
+alias git-branch-purge='git branch --merged | grep -Ev "(\*|master|develop|staging|main)" | xargs -n 1 git branch -d'
+alias git-nice-log="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
